@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subir Foto</title>
+</head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        Selecciona una foto: <input type="file" name="foto" accept="image/*">
+        <input type="submit" value="Subir">
+    </form>
+</body>
+</html>
